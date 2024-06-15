@@ -1,0 +1,42 @@
+.card-conatainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.auth{
+  display: flex;
+}
+.filters-home{
+  font-weight: bold;
+  padding-right: 20px;
+  margin-top: -5px;
+}
+
+.login-form{
+  position: relative;
+  top: 100px;
+  height: 100vh;
+}
+.register-form{
+  position: relative;
+  top: 100px;
+  height: 100vh;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.login{
+  height: 100vh;
+}

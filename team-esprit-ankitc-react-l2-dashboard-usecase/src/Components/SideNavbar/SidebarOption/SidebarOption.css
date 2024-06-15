@@ -1,0 +1,14 @@
+
+  .text:hover{
+    background-color :#e7f7f8;
+    color: #9ed8e3 ;
+    cursor: pointer;
+  }
+
+  .sidebar:hover .dark-text,
+.sidebar:hover .light-text,
+.sidebar:hover .MuiBadge-dot {
+  background-color :#e7f7f8;
+  color: #91e2ed ;
+  cursor: pointer; 
+}

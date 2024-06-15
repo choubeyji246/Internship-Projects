@@ -1,0 +1,6 @@
+config
+Include
+Lib
+Scripts
+team-espirit
+pyvenv.cfg

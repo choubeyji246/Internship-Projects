@@ -1,0 +1,30 @@
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #f2f2f2;
+}
+
+.order-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.filters {
+  position: relative;
+  top: 80px;
+  font-weight: bold;
+}
+.order-history {
+  position: relative;
+  top: 80px;
+  height: 100vh;
+}

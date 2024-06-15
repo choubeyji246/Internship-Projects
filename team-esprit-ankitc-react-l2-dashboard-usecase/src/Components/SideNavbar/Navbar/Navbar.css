@@ -1,0 +1,37 @@
+.dark-drawer {
+    background-color: #0f141e; 
+    color: #fff; 
+    overflow: hidden;
+  }
+
+  .light-drawer {
+    background-color: #fdfdfd; 
+    color: #333;
+    overflow: hidden;
+  }
+  
+
+.dark-line{
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.iconbar{
+  background-color: #f5f4f4;
+  width: 5%;
+  border-radius: 5px;
+  height: 100vh;
+ }
+ .image img{
+  height: 80px;
+  width: 74px;
+ }
+ .dark{
+     background-color: #0f141e; 
+     color: #fff;
+     width: 5%;
+     height: 100vh;
+ }
+ .menu{
+     color: white;
+ }

@@ -1,0 +1,50 @@
+.navbar-container{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    background-color: var(--primaryBlack);
+    color: #545c6a;
+}
+
+.profile-pic.css-1wlk0hk-MuiAvatar-root{
+    height: 80%;
+    width: 4%;
+}
+
+.search-container{
+    width: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.profile-items{
+    margin-right: 1.5rem;
+}
+
+.command-section{
+    height: 70%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    background-color: var(--secondaryBlack);
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.css-2xdc9l-MuiBadge-badge {
+    background-color: var(--orange)
+}

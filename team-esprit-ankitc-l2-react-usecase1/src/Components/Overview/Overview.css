@@ -1,0 +1,19 @@
+.overview{
+    padding-top: 3px !important;
+}
+.dark-text{
+    color: #fff;
+    cursor: pointer;
+  }
+  .dark-text:hover{
+    color: #9ed8e3 ;
+  }
+  .light-text{
+    color: black;
+  }
+  .light-text:hover{
+    color: #9ed8e3 ;
+  }
+  .overview-text:hover{
+    color: #9ed8e3 !important ;
+  }

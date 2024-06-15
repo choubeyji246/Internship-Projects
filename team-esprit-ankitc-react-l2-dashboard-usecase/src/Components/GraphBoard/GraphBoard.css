@@ -1,0 +1,139 @@
+.graphboard-container{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.piechart-comp{
+    width: 33%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: var(--secondaryBlack);
+    border-radius: 12px;
+    padding: 1%;
+    font-size: small;
+    position: relative;
+    margin: 0.5rem;
+}
+
+.graph-comp{
+    width: 67%;
+    height: 90%;
+    background-color:  var(--secondaryBlack);
+    border-radius: 12px;
+    padding: 1%;
+    font-size: small;
+    margin: 0.5rem;
+}
+
+
+.css-l0h214-MuiResponsiveChart-container>svg{
+    position: relative;
+    left: 10%;
+}
+
+.pie-header{
+    font-weight: bold;
+    color: var(--white);
+}
+
+.piechart-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 34%;
+    left: 40%;
+}
+
+.total{
+    font-size: small;
+    color: var(--fontBlack);
+}
+
+.number{
+    font-size: large;
+    font-weight: bold;
+    color:  var(--white);
+}
+
+.graph-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+.graph-header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.graph-header{
+    font-weight: bold;
+    color:  var(--white);
+}
+.graph-sec-header{
+    font-size: smaller;
+    color: var(--fontBlack);
+}
+
+.chip{
+    height: 60%;
+    width: 8%;
+}
+
+.graph{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.graph .css-l0h214-MuiResponsiveChart-container>svg {
+    position: relative;
+    left: 0%;
+}
+
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line{
+    stroke: var(--fontBlack);
+}
+
+.graph-label{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.graph-label-contents{
+    margin-left: 0.5rem;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.indicator{
+    height: 50%;
+    width: 18%;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+
+.continent-name{
+    color: var(--white);
+    font-size: smaller;
+}

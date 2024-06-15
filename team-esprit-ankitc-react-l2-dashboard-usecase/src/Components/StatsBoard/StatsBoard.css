@@ -1,0 +1,67 @@
+.statboard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+.statboardcard-container{
+    width: 33%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    background-color: var(--secondaryBlack);
+    padding: 0.5rem;
+    color: var(--white);
+    margin: 0.5rem;
+}
+
+.stat-info{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1rem;
+}
+
+.icon-sec{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-header.css-37jdci-MuiTypography-root{
+    font-size: 70%;
+    margin-bottom: 0.5rem;
+}
+
+.stat-percentage{
+    font-size: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stat-icon.css-i4bv87-MuiSvgIcon-root{
+    font-size: 1.2rem;
+   margin-right: 0.2rem
+}
+
+.stat-icon.green{
+    color: var(--darkGreen);
+}
+
+.stat-icon.red{
+    color: var(--orange);
+}
+
+.stat-rs{
+    font-size: large;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/* .account{
+    margin-top: 40px;
+    margin-left: 4px;
+}
+.account-text{
+    padding-bottom:1000px !important;
+} */
+/* Account.css */
+
+.account {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: -10px; 
+  }
+  
+  .account .MuiListItem-root {
+    padding-left: 15px; 
+    padding-bottom: -100px;
+  }
+  
+  .account .MuiListItemIcon-root {
+    min-width: 40px; 
+  }
+  
+  .account > * {
+    margin-bottom: -8px; 
+  }

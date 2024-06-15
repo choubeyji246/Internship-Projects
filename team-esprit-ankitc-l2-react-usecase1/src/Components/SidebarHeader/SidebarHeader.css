@@ -1,0 +1,28 @@
+.sidebar-header {
+  display: flex;
+
+  margin: 0px 10px 0px 10px;
+}
+.sidebar-header img {
+  height: 50px;
+  width: 60px;
+  padding: 10px;
+}
+.header-text {
+  margin-top: 20px !important;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.dark-text {
+  color: #fff;
+  cursor: pointer;
+}
+.dark-text:hover {
+  color: #9ed8e3;
+}
+.light-text {
+  color: black;
+}
+.light-text:hover {
+  color: #9ed8e3;
+}

@@ -1,0 +1,152 @@
+.welcomeboard-container{
+    height: 36%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-box{
+    width: 67%;
+    height: 90%;
+    background-color: var(--greenishWhite);
+    border-radius: 12px;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.guide-box{
+    width: 33%;
+    height: 100%;
+    padding: 0.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-sec{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1rem;
+}
+
+.header{
+    color: var(--darkGreen);
+    font-weight: bold;
+    font-size: large;
+}
+
+.description.css-37jdci-MuiTypography-root{
+    margin-top: 4%;
+    font-size: small;
+}
+
+.welcome-btn.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    width: 20%;
+    font-size: 70%;
+    margin-top: 3%;
+    background-color: var(--lightGreen);
+    color: white;
+    font-weight: 600;
+}
+
+.pic-sec{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-pic{
+    height: 80%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.guidebox-container{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../../assets/guide.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(var(--primaryBlack) , transparent );
+    -webkit-mask-image: linear-gradient(var(--primaryBlack), transparent);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.guide-pic-sec{
+    height: 20%;
+    width: 95%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    position: absolute;
+    top:4%;
+
+}
+
+.guide-info-sec{
+    position: absolute;
+    bottom: 1%;
+    height: 40%;
+    width: 95%;
+    padding: 0.5rem;
+    z-index: 111;
+
+}
+.guide-info-sec .header{
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--lightGreen);
+}
+
+.guide-info-sec .info-first{
+    color: var(--white);
+    font-weight: bold;
+}
+
+.guide-info-sec .info-second{
+    color: #e4e5e6;
+    font-size: small;
+}
+
+
+.blur-text{
+    transform: translate(-50%, -50%);
+    color:  var(--white);
+    font-size: 40px;
+    text-align: center;
+}
+
+.dot{
+    height: 30%;
+    width: 10%;
+    background-color: var(--lightGreen);
+    border-radius: 50%;
+}
+
+.dot-dimmed{
+    height: 30%;
+    width: 10%;
+    background-color: #398486;
+    border-radius: 50%;
+}
+
+.three-dots-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+    width: 20%;
+}
